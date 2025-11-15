@@ -1,0 +1,73 @@
+# OSX
+.DS_Store
+
+# node
+node_modules/
+
+vendor/
+vendor/bundle/
+ios/Pods/
+
+
+# logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Metro bundler
+.expo
+.expo-shared
+dist/
+.expo/
+.expo-shared/
+
+# React Native
+ios/Pods/
+ios/build/
+android/.gradle/
+android/app/build/
+android/app/release/
+
+# BUCK
+buck-out/
+\.buckconfig
+\.buckd
+\.buckversion
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.moved-aside
+
+# Android Studio
+*.iml
+.idea/
+.gradle/
+local.properties
+captures/
+output.json
+
+# Certificates
+*.keystore
+*.jks
+
+# Testing
+coverage/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# Watchman
+.watchmanconfig
+
+# Temp
+*.tmp
+*.temp
